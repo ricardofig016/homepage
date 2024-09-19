@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <h1>Welcome to my Github HomePage!</h1>
-      <a href="spotifree">SpotiFree</a>
+      <a href="https://ricardofig016.github.io/spotifree">SpotiFree</a>
     </>
   );
 }
