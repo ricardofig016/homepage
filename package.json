@@ -5,12 +5,11 @@
   "type": "module",
   "homepage": "https://ricardofig016.github.io/homepage",
   "scripts": {
-    "dev": "vite --host",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
