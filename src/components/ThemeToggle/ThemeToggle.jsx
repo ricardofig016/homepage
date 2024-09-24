@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./ThemeToggle.module.css";
 import "@theme-toggles/react/css/InnerMoon.css";
 import { InnerMoon } from "@theme-toggles/react";

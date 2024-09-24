@@ -1,4 +1,7 @@
 .div button {
+  display: flex;
+  place-items: center;
   color: var(--btn-color);
-  font-size: 40px;
+  font-size: 2rem;
+  transition: none; /*clear color and bg-color transitions*/
 }

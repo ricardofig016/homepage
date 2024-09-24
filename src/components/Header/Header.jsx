@@ -1,24 +1,34 @@
 import styles from "./Header.module.css";
 
+import ThemeToggle from "../ThemeToggle/ThemeToggle.jsx";
+
 function Header() {
   return (
-    <header>
-      <h1>My Homepage</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home">Home</a>
+    <header className={styles.header}>
+      <nav className={styles.nav}>
+        <ul className={styles.ul}>
+          <li className={styles.li}>
+            <a className={styles.a} href="#home">
+              home
+            </a>
           </li>
-          <li>
-            <a href="#news">News</a>
+          <li className={styles.li}>
+            <a className={styles.a} href="#news">
+              news
+            </a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li className={styles.li}>
+            <a className={styles.a} href="#contact">
+              contact
+            </a>
           </li>
-          <li>
-            <a href="#about">About</a>
+          <li className={styles.li}>
+            <a className={styles.a} href="#about">
+              about
+            </a>
           </li>
         </ul>
+        <ThemeToggle />
       </nav>
     </header>
   );
