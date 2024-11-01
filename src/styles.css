@@ -17,11 +17,9 @@
   --white: #dee1ff;
   --black: #242424;
 
-  --background-color: var(--white);
-  --text-color: var(--black);
-  --text-color-secondary: var(--white);
-  --btn-color: var(--black);
-  --btn-color-secondary: var(--white);
+  --bg-primary: var(--white);
+  --text-primary: var(--black);
+  --text-secondary: var(--white);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,28 +28,32 @@
 }
 
 [data-theme="dark"] {
-  --background-color: var(--black);
-  --text-color: var(--white);
-  --text-color-secondary: var(--black);
-  --btn-color: var(--white);
-  --btn-secondary-color: var(--black);
+  --bg-primary: var(--black);
+  --text-primary: var(--white);
+  --text-secondary: var(--black);
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  transition: background-color 0.75s ease, color 0.75s ease;
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 body {
-  box-sizing: border-box;
   margin: 0;
-  padding: 0 80px;
+  padding: 0 5rem;
   height: 100%;
   width: 100%;
-  background-color: var(--background-color);
-  color: var(--text-color);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+button {
+  background-color: var(--bg-primary);
+  color: var(--btn-color-secondary);
+  border: none;
+  cursor: pointer;
 }
 
 #root {
