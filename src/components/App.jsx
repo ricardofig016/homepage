@@ -6,7 +6,10 @@ function App() {
   return (
     <>
       <Header />
-      <TestButton />
+      <TestButton bgColor="white" />
+      <TestButton bgColor="light-blue" />
+      <TestButton bgColor="dark-blue" />
+      <TestButton bgColor="black" />
       <Footer />
     </>
   );

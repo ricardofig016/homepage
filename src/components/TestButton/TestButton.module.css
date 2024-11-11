@@ -1,2 +1,12 @@
-.button {
+.white {
+  background-color: var(--white);
+}
+.light-blue {
+  background-color: var(--light-blue);
+}
+.dark-blue {
+  background-color: var(--dark-blue);
+}
+.black {
+  background-color: var(--black);
 }

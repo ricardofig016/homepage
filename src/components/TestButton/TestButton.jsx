@@ -1,12 +1,16 @@
+import PropTypes from "prop-types";
 import styles from "./TestButton.module.css";
 
-function TestButton() {
+function TestButton({ bgColor }) {
   return (
     <>
-      <p>hey this is a p</p>
-      <button className={styles.button}>Click this button!</button>;
+      <button className={styles[bgColor]}>{bgColor}</button>
     </>
   );
 }
+
+TestButton.propTypes = {
+  bgColor: PropTypes.string.isRequired,
+};
 
 export default TestButton;

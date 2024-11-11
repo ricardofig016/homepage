@@ -11,7 +11,7 @@ function Footer() {
         {currYear - startYear === 0
           ? startYear + " "
           : startYear + "-" + currYear + " "}
-        ricardofig016.github.io
+        Ricardo Figueiredo
       </span>
     </footer>
   );

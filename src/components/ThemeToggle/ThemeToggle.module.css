@@ -1,7 +1,7 @@
 .div button {
   display: flex;
   place-items: center;
-  color: var(--text-primary);
+  color: var(--btn-primary);
   font-size: 2rem;
   transition: none;
 }
